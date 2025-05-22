@@ -1,0 +1,114 @@
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav-links {
+  float: left;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  color: #547fff;
+}
+
+
+
+.nav-links a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-links a:hover {
+  background-color: #111;
+}
+
+    .container {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+    }
+        .row {
+      display: flex;
+      gap: 20px; /* space between columns */
+    }
+
+    .column {
+      flex: 1; /* or set specific widths */
+      background-color: #f0f0f0;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+    #slogan{
+           display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    font-size: 2rem;
+    }
+
+    /* Form konteyneri (əgər .column div-i istifadə etmirsinizsə, form-un özünə də tətbiq edə bilərsiniz) */
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Label üslubu */
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Input sahələri üçün üslub */
+form input[type="text"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+form input:focus {
+    border-color: #101010;
+    outline: none;
+}
+
+#rezButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #262626;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#rezButton:hover {
+    background-color: #0a0a0a;
+}
